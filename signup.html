@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>SignUP</title>
+    <link rel="stylesheet" href="CSS/signup.css">
+</head>
+<body>
+    <div class="container">
+    <div class="left-section">
+        <img src="img/images.png" class="images">
+    </div>
+    <div class="right-section">
+        <div class="header">
+            <h2>Sign Up</h2>
+        </div>
+        <form action="signup.php" method="post">
+            <input type="text" name="username" placeholder="Username">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+            <input type="password" name="confirm_password" placeholder="Confirm Password">
+            <input type="text" name="referral" placeholder="Referral">
+            <label> <input type="checkbox" name="terms"> <span>I agree with the <a href="terms.html">terms & conditions</a></span> </label>
+            <input type="submit" name="submit" value="Sign Up">
+            
+        <!-- OR -->
+        <div class="or">
+            <hr class="bar">
+            <span>OR</span>
+            <hr class="bar">
+        </div>
+        <div class="social-media">
+            <button> <img src="img/google.png" alt="Google logo"> Sign Up with Google</span> </button>
+            <button> <img src="img/facebook.png" alt="Facebook logo"> <span>Sign Up with Facebook</span> </button>
+        </div>
+        <div class="login">
+            <p>Already have an account? <a href="login.php">Login</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
